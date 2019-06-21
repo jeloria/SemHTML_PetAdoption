@@ -1,0 +1,27 @@
+/// Variables /// 
+$color-primary: #6a5acd;
+$color-secondary: #e4f1fe;
+$color-text-primary: #0c2231;
+
+nav {
+    background-color: $color-primary;
+    padding: 25px;
+
+    & .nav-item {
+        font-size: 24px;
+        vertical-align: middle;
+        text-decoration: none;
+        color: $color-secondary;
+        margin: 0 25px;
+    }
+}
+
+main {
+    & .card {
+        width: 800px;
+
+        & img {
+            width: 100%;
+        }
+    }
+}
